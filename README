@@ -1,0 +1,14 @@
+Here http://code.google.com/webtoolkit/articles/mvp-architecture-2.html
+you may read about putting together MVP pattern promoted by Google for GWT
+development and UiBinder for xml declarative UI development for GWT. However,
+the example for download on this page is totally broken. Here are changes to it
+made in this repo:
+1. Eclipse configuration was added (.project, .classpath, .settings). GWT 2.4 and 2.4 Google
+plugin were used.
+2. Proper history support for editing contacts was added (ability to move back and forward
+in browser to editing particular contacts, that is absent in both 1st and 2nd original exmaples
+for MVP).
+3. Black magic of native HTML for table was replaced with binded FlexTable for ContactsView
+4. EditContactsView was implemented with UiBinder as well.
+5. EventBus instead of non-recomened to this purpose HandlerManager was used.
+6. Code cleanup (several bugs were fixed, unused third domain object Address was removed, etc.) 
