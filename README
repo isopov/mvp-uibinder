@@ -1,3 +1,5 @@
+http://moradanen.sopovs.com/2011/09/mvp-plus-uibinder-example.html
+
 Here http://code.google.com/webtoolkit/articles/mvp-architecture-2.html
 you may read about putting together MVP pattern promoted by Google for GWT
 development and UiBinder for xml declarative UI development for GWT. However,
@@ -13,6 +15,6 @@ for MVP).
 5. EventBus instead of non-recomened to this purpose HandlerManager was used.
 6. Code cleanup (several bugs were fixed, unused third domain object Address was removed, etc.)
 
-If you are not familiar with git - just download to archive and import it to Eclipse as existing project.
+If you are not familiar with git - just download to archive and import it to Eclipse as an existing project.
 Zipped archive - https://github.com/isopov/mvp-uibinder/zipball/master
 tar.gz archive - https://github.com/isopov/mvp-uibinder/tarball/master 
