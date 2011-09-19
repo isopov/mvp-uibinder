@@ -11,4 +11,8 @@ for MVP).
 3. Black magic of native HTML for table was replaced with binded FlexTable for ContactsView
 4. EditContactsView was implemented with UiBinder as well.
 5. EventBus instead of non-recomened to this purpose HandlerManager was used.
-6. Code cleanup (several bugs were fixed, unused third domain object Address was removed, etc.) 
+6. Code cleanup (several bugs were fixed, unused third domain object Address was removed, etc.)
+
+If you are not familiar with git - just download to archive and import it to Eclipse as existing project.
+Zipped archive - https://github.com/isopov/mvp-uibinder/zipball/master
+tar.gz archive - https://github.com/isopov/mvp-uibinder/tarball/master 
