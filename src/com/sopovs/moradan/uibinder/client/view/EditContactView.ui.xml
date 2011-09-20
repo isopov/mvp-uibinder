@@ -3,24 +3,23 @@
   xmlns:ui="urn:ui:com.google.gwt.uibinder"
   xmlns:g="urn:import:com.google.gwt.user.client.ui">
 
-  <g:DecoratorPanel>
-  <g:VerticalPanel>
-	    <g:HorizontalPanel>
-	      	<g:Label>First name</g:Label>
-	      	<g:TextBox ui:field="firstName" />
-	    </g:HorizontalPanel>
-	    <g:HorizontalPanel>
-	      	<g:Label>Last name</g:Label>
-	      	<g:TextBox ui:field="lastName" />
-	    </g:HorizontalPanel>
-	    <g:HorizontalPanel>
-	      	<g:Label>Email</g:Label>
-	      	<g:TextBox ui:field="email" />
-	    </g:HorizontalPanel>
-	    <g:HorizontalPanel>
-	      	<g:Button ui:field="saveButton">Save</g:Button>
-	      	<g:Button ui:field="cancelButton">Cancel</g:Button>
-	    </g:HorizontalPanel>
-	  </g:VerticalPanel>
-  </g:DecoratorPanel>
+  <g:HTMLPanel>
+  <table>
+			<tr>
+				<td>First name:</td>
+				<td><g:TextBox ui:field="firstName" /></td>
+			</tr>
+			<tr>
+				<td>Last name:</td>
+				<td><g:TextBox ui:field="lastName" /></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><g:TextBox ui:field="email" /></td>	
+			</tr>
+  </table>
+  <br />
+  <g:Button ui:field="saveButton">Save</g:Button>
+  <g:Button ui:field="cancelButton">Cancel</g:Button>
+  </g:HTMLPanel>
 </ui:UiBinder> 
